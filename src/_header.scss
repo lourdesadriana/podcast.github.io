@@ -1,0 +1,48 @@
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 16px;
+    height: 44px;
+    width: 100%;
+    background-color: $background-color;
+
+    &--logo
+    {
+        height: 18px;
+    }
+
+
+    &--menu
+    {   
+        display: flex;
+justify-content: flex-end;
+        align-items: center;
+        margin: 16px;
+
+        &-item
+        {
+            list-style: none;
+            padding: 0 24px;
+            font-family: $font-text;
+            color: $text-color;
+        }
+    }
+}
+ 
+#navbar--menu-button
+{
+    display: none;
+}
+
+#navbar--menu-icon
+{
+    display: none;
+    width: 18px;
+
+:hover
+{
+cursor: pointer;
+}
+}

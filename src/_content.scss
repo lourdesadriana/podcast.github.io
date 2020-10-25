@@ -1,0 +1,58 @@
+h2
+{
+    font-family: $font-titles;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 42px;
+    color: $text-color;
+}
+
+h3
+{
+    font-family: $font-titles;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 42px;
+    color: $text-color;
+    letter-spacing: 0;
+text-align: center;
+}
+
+#world{
+    text-decoration: line-through;
+}
+p{
+    font-family: $font-text;
+    font-size: 14px;
+    color: $text-color;
+    height: 22px;
+    margin: 48px 16px;
+}
+
+.section
+{
+margin: 4rem 1rem;
+
+// &--button
+// {
+//     margin: 48px 16px;
+// }
+}
+
+.icon{
+    margin: 0 auto 0;
+    display: block;
+}
+
+.button
+{
+    width: 288px;
+    height: 48px;
+    font-family: $font-text;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: $secondary-color;
+    border: none;
+    margin: 16px 16px;
+}
+

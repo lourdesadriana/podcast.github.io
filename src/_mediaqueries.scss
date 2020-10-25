@@ -1,23 +1,31 @@
- @media (max-width: 768px)
+/*  @media (max-width: 768px) */
+ @media only screen and (min-width: 768px)
 {
-    #navbar--menu-icon
-{
-    display: block;
-    margin: 16px 19px;
-    width: 18px;
 
-}
 .navbar--menu
     {   
-        position: absolute;
+position: absolute;
         display: none;
+
+        .fa-bars, .fa-times
+        {
+        position: absolute;
+        }
 }
 
-#navbar--menu-button:checked ~ .navbar--menu
+
+// #navbar--menu-button:checked ~ .navbar--menu
+// {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-end;
+// margin-right: 19px;
+// position: relative;
+// }
+
+.img-res
 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 250px;
+    width: 100vw;
 }
 
 }

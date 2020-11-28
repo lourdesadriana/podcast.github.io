@@ -1,0 +1,67 @@
+@media only screen and (min-width: 768px)
+{
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 76px 22px 100px;
+    height: 80px;
+    width: 100%;
+    background-color: $background-color;
+
+    &--logo
+    {
+        height: 36px;
+    }
+
+
+    &--menu
+    {   
+        .fa-bars, .fa-times{
+            display: none;
+        }
+
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &-item
+        {
+            display: inline;
+            list-style: none;
+            padding: 0 24px;
+            font-family: $font-text;
+            font-size: 16px;
+            color: $text-color;
+               
+        }
+        .navbar--menu-item:hover {
+            cursor: pointer;
+            color: $secondary-color;
+            text-decoration: line-through;
+        }
+        .navbar--menu-item:active {
+            cursor: pointer;
+            color: $text-color;
+            opacity: 0.65;
+            text-decoration: line-through;
+        }
+
+    }
+}
+ 
+#navbar--menu-button
+{
+    display: none;
+}
+
+#navbar--menu-icon
+{
+    display: none;
+    width: 18px;
+
+
+    }
+
+}

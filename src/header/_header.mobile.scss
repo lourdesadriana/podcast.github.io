@@ -1,0 +1,91 @@
+@media only screen and (max-width: 767px)
+{
+    a:link, a:visited{
+        font-family: $font-text;
+        font-size: 16px;
+        color: $background-color;
+        list-style: none;
+        text-decoration: none;
+    }
+    a:hover{
+        font-family: $font-text;
+        font-size: 16px;
+        color: $secondary-color;
+        list-style: none;
+    }
+
+    .navbar
+    {
+        display: flex;
+        justify-content: space-between;
+        height: 44px;
+        width: 100vw;
+        padding: 16px 10px;
+
+        &--logo
+        {
+            height: 24px;
+        }
+
+        &--menu
+        {
+                position: absolute;
+                right: 0px;
+                width: 100vw;
+
+        #navbar--menu-button{
+                    opacity: 0;
+                    right: 1rem;
+                    top: 0;
+                    position: absolute;
+                    z-index: 1;
+                } 
+
+        .fa-bars, .fa-times
+        {
+            position: absolute;
+            top:0;
+            right:1rem;
+            
+        }
+
+        .fa-times{
+            display: none;
+        }
+
+            &-container
+            { 
+                background-color: $main-color;
+                margin: 44px 0px;
+                width: 100vw;
+                display: none;
+            }
+
+    &-item 
+            {
+                    font-family: $font-text;
+                    font-size: 1rem;
+                    color: $background-color;
+                    list-style: none;
+                    padding: 1em;
+            } 
+
+        }
+
+    
+        #navbar--menu-button:checked ~ .fa-times{
+            display: block;
+        }
+    
+        #navbar--menu-button:checked ~ .navbar--menu-container{
+            display: block;
+        }
+
+        #navbar--menu-button:checked ~ .fa-bars{
+            display: none;
+        } 
+
+    
+    }
+
+}

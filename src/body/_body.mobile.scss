@@ -1,0 +1,163 @@
+@media only screen and (max-width: 767px)
+{
+
+h2
+{
+    font-family: $font-titles;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: $text-color;
+}
+
+h3
+{
+    font-family: $font-titles;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 42px;
+    color: $text-color;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+#world{
+    text-decoration: line-through;
+}
+
+p{
+    font-family: $font-text;
+    font-size: 14px;
+    color: $text-color;
+    line-height: 22px;
+    margin: 16px 0px;
+}
+
+
+
+.img-res{
+    width: 100%;
+    margin: 0px 0px;
+
+}
+
+
+.section--blue
+{
+    width: 100vw;
+    margin-top: 24px;
+    overflow: hidden;
+    position: relative;
+    padding: 64px 14px 128px 14px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+
+    h2{
+        color: $background-color;
+        margin-bottom: 21px;
+    }
+   
+&-skew{
+    transform: skewY(6deg);
+
+
+}
+}
+
+.section--phone{
+    width: 100%;
+
+    &-img{
+    position: relative;
+    width: 100vw;
+transform: translateY(-100px);
+
+    }
+    h2{
+        margin-top: -50px;
+    }
+
+    &-text{
+width: 100vw;
+padding: 0px 16px;
+background-color: $background-color;
+    }
+
+}
+
+.section
+{
+width: 100%;
+padding: 29px 16px;
+background-color: $background-color;
+}
+
+.icon-svg{
+        text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+
+
+.button
+{
+    width: 100%;
+    height: 48px;
+    font-family: $font-text;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: $secondary-color;
+    border: none;
+    margin: 24px 0px;
+}
+    .button:hover {
+        color: $background-color;
+        background-image: linear-gradient(225deg, $main-color 0%, $secondary-color 100%);        
+    }
+
+
+.section--gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    height: 341px;
+    overflow: hidden;
+}
+
+
+.section--footer-container
+{
+    position: absolute;
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    width: 100vw;
+    margin-top: 24px;
+    overflow: hidden;
+    position: relative;
+    padding: 64px 14px 128px 14px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    h2{
+        color: $background-color;
+        margin-bottom: 21px;
+    }
+}  
+.section--footer-skew{
+    transform: skewY(6deg);
+
+}
+
+footer{
+    text-align: center;
+}
+
+.socialmedia-icon{
+    padding: 16px 45px 31px 45px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+}

@@ -1,31 +1,6 @@
-/*  @media (max-width: 768px) */
- @media only screen and (min-width: 768px)
-{
-
-.navbar--menu
-    {   
-position: absolute;
-        display: none;
-
-        .fa-bars, .fa-times
-        {
-        position: absolute;
-        }
-}
-
-
-// #navbar--menu-button:checked ~ .navbar--menu
-// {
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: flex-end;
-// margin-right: 19px;
-// position: relative;
-// }
-
-.img-res
-{
-    width: 100vw;
-}
-
-}
+@import './header/header.mobile';
+@import './header/header.desktop';
+@import './body/body.mobile';
+@import './body/body.desktop';
+@import './footer/footer.mobile';
+@import './footer/footer.desktop';

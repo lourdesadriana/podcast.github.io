@@ -36,21 +36,28 @@
             color: $text-color;
                
         }
-        .navbar--menu-item:hover {
-            cursor: pointer;
-            color: $secondary-color;
-            text-decoration: line-through;
-        }
-        .navbar--menu-item:active {
-            cursor: pointer;
-            color: $text-color;
-            opacity: 0.65;
-            text-decoration: line-through;
-        }
-
     }
 }
  
+a{
+    font-family: $font-text;
+    font-size: 16px;
+    color: $text-color;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: $secondary-color;
+    text-decoration: line-through;
+}
+
+a:active {
+    color: $text-color;
+    opacity: 0.65;
+    text-decoration: line-through;
+}
+
 #navbar--menu-button
 {
     display: none;
@@ -63,5 +70,6 @@
 
 
     }
+
 
 }

@@ -20,30 +20,41 @@
             <i class="fas fa-bars"></i>
             <i class="fas fa-times"></i>
             <ul class="navbar--menu-container">
-                <li class="navbar--menu-item"><a href="#EPISODIOS">EPISODIOS</a></li>
-                <li class="navbar--menu-item"><a href="#NOSOTROS">NOSOTROS</a></li>
-                <li class="navbar--menu-item"><a href="#ENTREVISTAS">ENTREVISTAS</a></li>
-                <li class="navbar--menu-item"><a href="#TOPICOS">TÓPICOS</a></li>
+                <li class="navbar--menu-item"><a class="item" href="#EPISODIOS">EPISODIOS</a></li>
+                <li class="navbar--menu-item"><a class="item" href="#NOSOTROS">NOSOTROS</a></li>
+                <li class="navbar--menu-item"><a class="item" href="#ENTREVISTAS">ENTREVISTAS</a></li>
+                <li class="navbar--menu-item"><a class="item" href="#TOPICOS">TÓPICOS</a></li>
             </ul>
         </div>
     </nav>
     <main>
         <section class="section">
-            <h2>Hello <span id="world">world</span> pale blue dot</h2>
-            <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <h1>Hello <span id="world">world</span> pale blue dot <span id="dot">.</span></h1>
+            <p class="section--par">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los
+                jueves cada 15 días.</p>
             <button class="button"><span>CONOCÉ MÁS</span></button>
         </section>
         <section class="section--blue">
             <div class="section--blue-skew">
                 <h2 id="EPISODIOS">Episodios</h2>
-                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="100%"
-                    height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/episode/7gZP4TJVFdCOfVxoPDPPeP" width="100%"
-                    height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/episode/50TZWE4NopvWg77jLJJBl0" width="100%"
-                    height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="100%"
-                    height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <div class="section--blue-episodes">
+                    <div class="section--blue-episodes-container">
+                        <iframe class="podcast"
+                            src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" width="100%"
+                            height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe class="podcast"
+                            src="https://open.spotify.com/embed-podcast/episode/7gZP4TJVFdCOfVxoPDPPeP" width="100%"
+                            height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="section--blue-episodes-container">
+                        <iframe class="podcast"
+                            src="https://open.spotify.com/embed-podcast/episode/50TZWE4NopvWg77jLJJBl0" width="100%"
+                            height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe class="podcast" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"
+                            width="100%" height="232" frameborder="0" allowtransparency="true"
+                            allow="encrypted-media"></iframe>
+                    </div>
+                </div>
             </div>
         </section>
         <section class="section--phone">
@@ -64,11 +75,13 @@
             </div>
         </section>
         <section>
-            <h2 id="ENTREVISTAS" class="section">Invitadas/os estelares</h2>
+            <h2 id="ENTREVISTAS" class="section--invitados">Invitadas/os estelares</h2>
             <div class="section--gallery">
                 <img class="img-res" src="./images/grace-hopper.png" alt="Grace Hopper">
                 <img class="img-res" src="./images/Katie-Bouman.png" alt="Katie Bouman">
                 <img class="img-res" src="./images/Margaret_Hamilton.png" alt="Margaret Hamilton">
+            </div>
+            <div class="section--gallery">
                 <img class="img-res" src="./images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Univac">
                 <img class="img-res"
                     src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
@@ -79,21 +92,23 @@
         </section>
         <section>
             <h2 id="TOPICOS" class="section">Algunos de nuestros temas</h2>
-            <div class="icon-svg">
-                <img src="./images/icon1.svg" alt="Trabajo remoto">
-                <h3>Trabajo remoto</h3>
-            </div>
-            <div class="icon-svg">
-                <img src="./images/icon2.svg" alt="Repensando la programación">
-                <h3>Repensando la programación</h3>
-            </div>
-            <div class="icon-svg">
-                <img src="./images/icon3.svg" alt="Bases del código">
-                <h3>Bases del código</h3>
-            </div>
-            <div class="icon-svg">
-                <img src="./images/icon4.svg" alt="Seguridad informática">
-                <h3>Seguridad informática</h3>
+            <div class="icon-container">
+                <div class="icon-svg">
+                    <img src="./images/icon1.svg" alt="Trabajo remoto">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div class="icon-svg">
+                    <img src="./images/icon2.svg" alt="Repensando la programación">
+                    <h3>Repensando la programación</h3>
+                </div>
+                <div class="icon-svg">
+                    <img src="./images/icon3.svg" alt="Bases del código">
+                    <h3>Bases del código</h3>
+                </div>
+                <div class="icon-svg">
+                    <img src="./images/icon4.svg" alt="Seguridad informática">
+                    <h3>Seguridad informática</h3>
+                </div>
             </div>
         </section>
     </main>
@@ -104,19 +119,27 @@
                 <button class="button section--footer-skew">ESCUCHÁ LOS EPISODIOS</button>
             </div>
         </section>
-        <section>
-            <p>© 2019— Hello blue pale dot</p>
-        </section>
-        <section class="socialmedia-icon">
-            <div> <i class="fab fa-spotify"></i></div>
+        <section class="footer-socialmedia">
             <div>
-                <i class="fab fa-instagram"></i></div>
-            <div> <i class="fa fa-twitter" aria-hidden="true"></i>
+                <p>© 2019— Hello blue pale dot</p>
             </div>
-            <div> <i class="fab fa-facebook"></i></div>
-            <div> <i class="fab fa-telegram"></i>
+
+            <div class="socialmedia-icon">
+                <div> <a class="sm" href="https://www.spotify.com/" target="_blank"><i class="fab fa-spotify"></i></a>
+                </div>
+                <div> <a class="sm" href="https://www.instagram.com" target="_blank"> <i
+                            class="fab fa-instagram"></i></a>
+                </div>
+                <div> <a class="sm" href="https://www.twitter.com" target="_blank"> <i class="fa fa-twitter"
+                            aria-hidden="true"></i> </a>
+                </div>
+                <div> <a class="sm" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div> <a class="sm" href="https://www.telegram.org" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
             </div>
         </section>
+
 
     </footer>
 </body>

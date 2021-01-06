@@ -1,0 +1,169 @@
+@media only screen and (min-width: 768px)
+{
+
+
+    h1
+    {
+        font-family: $font-titles;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 84px;
+        color: $text-color;
+        margin-top: 60px;
+    }
+    h2
+    {
+        font-family: $font-titles;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 62px;
+        color: $text-color;
+    }
+    
+    h3
+    {
+        font-family: $font-titles;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: $text-color;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    
+    #world{
+        text-decoration: line-through;
+    }
+
+    #dot{
+        color: $main-color;
+    }
+
+
+    
+    p{
+        font-family: $font-text;
+        font-size: 16px;
+        color: $text-color;
+        line-height: 22px;
+        margin: 16px 0px;
+    }
+    
+
+    .section
+{
+width: 100%;
+padding: 60px 120px 36px 200px;
+background-color: $background-color;
+}
+.section--par{
+    width: 628px;
+}
+    
+
+.button
+{
+// width: 226px;
+padding: 16px 59px;
+    height: 56px;
+    font-family: $font-text;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: $secondary-color;
+    border: none;
+    margin: 24px 0px;
+}
+    .button:hover {
+        color: $background-color;
+        background-image: linear-gradient(225deg, $main-color 0%, $secondary-color 100%);        
+    }
+
+    .section--blue
+    {
+        width: 100vw;
+        margin-top: 60px;
+        // overflow: hidden;
+        position: relative;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        transform: skewY(-6deg);
+        transform-origin: top left;
+    
+        h2{
+            color: $background-color;
+            margin-bottom: 21px;
+            padding: 120px 120px 0px 200px;
+        }
+       
+    &-skew{
+        transform: skewY(6deg);
+     
+    }
+    .section--blue-episodes
+    {
+        width: 100vw;
+        padding-bottom: 180px;
+        overflow: hidden;
+        // position: relative;
+      
+&-container{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 38px;
+}
+
+    }
+    }
+
+.podcast{
+    padding: 0px 38px;
+}
+    
+    .section--phone{
+        width: 100%;
+        // overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 150px;
+        &-img{
+        position: relative;
+        top: -150px;
+width: 30vw;    
+
+        }
+
+        &-text{
+    width: 100vw;
+    background-color: $background-color;
+        }
+    
+    }
+    .section--gallery
+{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section--invitados
+{
+    width: 100%;
+    padding: 0px 120px 36px 200px;
+    background-color: $background-color; 
+}
+.img-res{
+    width: 33%;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 200px;
+    text-align: center;
+}
+
+.icon-svg{
+    margin: 16px 20px;
+}
+}

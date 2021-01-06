@@ -1,19 +1,13 @@
 @media only screen and (max-width: 767px)
 {
-    a:link, a:visited{
-        font-family: $font-text;
-        font-size: 16px;
-        color: $background-color;
-        list-style: none;
-        text-decoration: none;
-    }
-    a:hover{
-        font-family: $font-text;
-        font-size: 16px;
-        color: $secondary-color;
-        list-style: none;
-    }
 
+ .item {
+    font-family: $font-text;
+    font-size: 16px;
+    color: $background-color;
+    list-style: none;
+    text-decoration: none;
+}
     .navbar
     {
         display: flex;
@@ -59,9 +53,12 @@
                 margin: 44px 0px;
                 width: 100vw;
                 display: none;
+                color: $background-color;
             }
 
-    &-item 
+        }
+
+        .navbar--menu-item
             {
                     font-family: $font-text;
                     font-size: 1rem;
@@ -70,9 +67,6 @@
                     padding: 1em;
             } 
 
-        }
-
-    
         #navbar--menu-button:checked ~ .fa-times{
             display: block;
         }

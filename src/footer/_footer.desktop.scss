@@ -1,0 +1,55 @@
+
+
+@media only screen and (min-width: 768px)
+{
+
+    .footer{
+        height: 518px;
+        overflow: hidden;
+    }
+    .section--footer-container
+{
+    position: absolute;
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    width: 100vw;
+    margin-top: 24px;
+    overflow: hidden;
+    position: relative;
+    padding: 150px 14px 250px 14px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+
+    h2{
+        color: $background-color;
+        margin-bottom: 21px;
+    }
+}  
+.section--footer-skew{
+    transform: skewY(6deg);
+
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-socialmedia{
+    padding: 36px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialmedia-icon{
+    width: 20vw;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.sm
+{
+    font-size: 16px;
+    color: $text-color;
+    text-decoration: none;
+}
+}
